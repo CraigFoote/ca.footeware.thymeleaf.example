@@ -26,12 +26,18 @@ public class DefaultController {
 	@RequestMapping(value = "/weather", method = RequestMethod.GET)
 	@ResponseBody
 	public String getWeather() {
-		return "Sunny!";
+		return "Snow!";
 	}
 
-	@RequestMapping(value = "/weather/{setting}", method = RequestMethod.POST)
+	@RequestMapping(value = "/weather/{forecast}", method = RequestMethod.POST)
 	@ResponseBody
-	public String setWeather(@PathVariable("setting") String setting) {
+	public String setWeather(@PathVariable("forecast") String setting) {
 		return setting;
+	}
+
+	@RequestMapping(value = "/weather/{forecast}", method = RequestMethod.DELETE)
+	@ResponseBody
+	public void deleteWeather(@PathVariable("forecast") String setting) {
+		return;
 	}
 }
