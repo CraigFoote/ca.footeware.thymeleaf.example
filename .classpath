@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ca.footeware.thymeleaf.example/src/main/java"/>
+	<classpathentry kind="src" path="ca.footeware.thymeleaf.example/src/test/java"/>
+	<classpathentry kind="lib" path="ca.footeware.thymeleaf.example/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="ca.footeware.thymeleaf.example/target/ca.footeware.thymeleaf.example-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="ca.footeware.thymeleaf.example/target/classes"/>
+</classpath>
