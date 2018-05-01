@@ -27,7 +27,7 @@ function deleteWeather() {
 	$.ajax({
 		url : "http://localhost:8080/weather/Sleet",
 		type : 'DELETE'
-	}).done(function() {
-		$("#deleteWeatherResult").html("You deleted something.");
+	}).done(function(data) {
+		$("#deleteWeatherResult").html("You deleted " + data);
 	});
 }

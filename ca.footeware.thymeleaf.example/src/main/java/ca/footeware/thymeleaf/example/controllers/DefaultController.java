@@ -38,15 +38,15 @@ public class DefaultController {
 
 	@PostMapping("/weather/{forecast}")
 	@ResponseBody
-	public String setWeather(@PathVariable("forecast") String setting) {
-		LOG.info("Received " + setting);
-		return setting;
+	public String setWeather(@PathVariable("forecast") String forecast) {
+		LOG.info("Received " + forecast);
+		return forecast;
 	}
 
 	@DeleteMapping("/weather/{forecast}")
 	@ResponseBody
-	public void deleteWeather(@PathVariable("forecast") String setting) {
-		LOG.info("Deleting " + setting);
-		return;
+	public String deleteWeather(@PathVariable("forecast") String forecast) {
+		LOG.info("Deleting " + forecast);
+		return forecast;
 	}
 }
