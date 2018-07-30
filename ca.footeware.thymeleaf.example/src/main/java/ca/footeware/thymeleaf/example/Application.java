@@ -1,5 +1,6 @@
 package ca.footeware.thymeleaf.example;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 import org.slf4j.Logger;
@@ -13,8 +14,13 @@ public class Application {
 	private static final Logger LOG = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String[] args) {
+		LOG.info("Application starting...");
 		SpringApplication.run(Application.class, args);
-		LOG.info("Application started.");
+	}
+	
+	@PostConstruct
+	protected void postConstruct() {
+		LOG.info("Application started");
 	}
 
 	@PreDestroy
