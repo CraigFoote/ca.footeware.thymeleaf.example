@@ -14,7 +14,7 @@ function getWeather() {
  */
 function setWeather() {
 	$.post("http://localhost:8080/weather/Sunny").done(function(data) {
-		$("#setWeatherResult").html("You want " + data);
+		$("#setWeatherResult").html(data);
 	}).fail(function(xhr, textStatus, errorThrown) {
 		alert(textStatus);
 	});
