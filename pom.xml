@@ -114,7 +114,7 @@
 			</snapshots>
 			<id>nexus-snapshots</id>
 			<name>nexus-snapshots</name>
-			<url>http://server:8081/repository/maven-snapshots/</url>
+			<url>http://craig:chocolate@server:8081/repository/maven-snapshots/</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
@@ -131,7 +131,7 @@
 			<id>nexus-releases</id>
 			<name>Nexus Releases</name>
 			<uniqueVersion>true</uniqueVersion>
-			<url>http://server:8081/repository/maven-releases/</url>
+			<url>http://craig:chocolate@server:8081/repository/maven-releases/</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
@@ -156,7 +156,7 @@
 						</executions>
 						<configuration>
 							<serverId>server</serverId>
-							<nexusUrl>http://server:8081/repository/maven-releases/</nexusUrl>
+							<nexusUrl>http://craig:chocolate@server:8081/repository/maven-releases/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
