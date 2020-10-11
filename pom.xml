@@ -124,7 +124,7 @@
 			<uniqueVersion>true</uniqueVersion>
 			<id>nexus-snapshots</id>
 			<name>Nexus Snapshots</name>
-			<url>http://server:8081/repository/maven-snapshots/</url>
+			<url>http://craig:chocolate@server:8081/repository/maven-snapshots/</url>
 			<layout>default</layout>
 		</snapshotRepository>
 		<repository>
