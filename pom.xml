@@ -84,7 +84,7 @@
 				<version>1.6.8</version>
 				<extensions>true</extensions>
 				<configuration>
-					<serverId>nexus</serverId>
+					<serverId>nexus-releases</serverId>
 					<nexusUrl>http://server:8081</nexusUrl>
 				</configuration>
 			</plugin>
