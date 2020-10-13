@@ -93,9 +93,9 @@
 
 	<scm>
 		<url>https://github.com/CraigFoote/ca.footeware.web.git</url>
-		<connection>scm:git:git://github.com/CraigFoote/ca.footeware.web.git</connection>
-		<developerConnection>scm:git:git@github.com:CraigFoote/ca.footeware.web.git</developerConnection>
-		<tag>ca.footeware.thymeleaf.example-0.0.1</tag>
+		<connection>scm:git:https://github.com/CraigFoote/ca.footeware.web.git</connection>
+		<developerConnection>scm:git:https://github.com:CraigFoote/ca.footeware.web.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<repositories>
