@@ -134,32 +134,4 @@
 		</repository>
 	</distributionManagement>
 
-	<profiles>
-		<profile>
-			<id>release</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.sonatype.plugins</groupId>
-						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.6.8</version>
-						<executions>
-							<execution>
-								<id>default-deploy</id>
-								<phase>deploy</phase>
-								<goals>
-									<goal>deploy</goal>
-								</goals>
-							</execution>
-						</executions>
-						<configuration>
-							<serverId>server</serverId>
-							<nexusUrl>http://server:8081/repository/maven-releases/</nexusUrl>
-							<skipStaging>true</skipStaging>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 </project>
