@@ -93,8 +93,8 @@
 
 	<scm>
 		<url>https://github.com/CraigFoote/ca.footeware.web.git</url>
-		<connection>scm:git:https://github.com/CraigFoote/ca.footeware.web.git</connection>
-		<developerConnection>scm:git:https://github.com/CraigFoote/ca.footeware.web.git</developerConnection>
+		<connection>scm:git:ssh://github.com/CraigFoote/ca.footeware.web.git</connection>
+		<developerConnection>scm:git:ssh://github.com/CraigFoote/ca.footeware.web.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
